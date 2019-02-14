@@ -21,7 +21,7 @@ func Test01(test *testing.T) {
 }
 
 func TestSha256(test *testing.T) {
-	s := "123456"
+	s := "123456432423"
 	ss := sha256.Sum256([]byte(s))
-	fmt.Println(ss)
+	fmt.Printf("%x", ss)
 }

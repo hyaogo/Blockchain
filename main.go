@@ -7,8 +7,8 @@ import (
 
 func main() {
 	bc := bolck.NewBlockChain()
-	bc.AddBlock("2343243423")
-	bc.AddBlock("fdsfdsa432")
+	bc.AddBlock("happy new year")
+	bc.AddBlock("i love you")
 
 	for _, block := range bc.Blocks {
 		fmt.Printf("Prev. hash: %x\n", block.PreBlockHash)

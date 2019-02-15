@@ -1,4 +1,4 @@
-package bolck
+package block
 
 import (
 	"bytes"
